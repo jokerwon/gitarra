@@ -1,0 +1,32 @@
+{
+  "name": "gitarra",
+  "version": "0.0.1-alpha-0.0.1",
+  "description": "a javascript util lib & cli for git",
+  "bin": {
+    "gt": "./bin/index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:jokerwon/git-helper.git"
+  },
+  "keywords": [
+    "util",
+    "git",
+    "cli"
+  ],
+  "author": "JokerWon",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.1.0",
+    "figlet": "^1.5.2"
+  }
+}
