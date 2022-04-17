@@ -24,12 +24,12 @@ npm link
 #### 特性
 
 - [ ] 支持 github
-- [] 支持 gitee
-- [] 作为 cli 直接使用
-- [] 作为 npm 包引入供 node 使用
-- [] 获取指定仓库的所有 branch
-- [] 获取指定仓库的所有 tag
-- [] 获取指定仓库的所有 release
-- [] 获取指定仓库的 star 数量
-- [] 获取指定仓库的 fork 数量
-- [] 获取指定仓库的所有 starrer
+- [ ] 支持 gitee
+- [ ] 作为 cli 直接使用
+- [ ] 作为 npm 包引入供 node 使用
+- [ ] 获取指定仓库的所有 branch
+- [ ] 获取指定仓库的所有 tag
+- [ ] 获取指定仓库的所有 release
+- [ ] 获取指定仓库的 star 数量
+- [ ] 获取指定仓库的 fork 数量
+- [ ] 获取指定仓库的所有 starrer
