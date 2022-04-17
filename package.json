@@ -1,16 +1,21 @@
 {
   "name": "gitarra",
-  "version": "0.0.1-alpha-0.0.1",
+  "version": "0.0.1-alpha-0.0.2",
   "description": "a javascript util lib & cli for git",
   "bin": {
     "gt": "./bin/index.js"
   },
-  "main": "index.js",
+  "browser": "dist/bundle.umd.js",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "types": "dist/types/index.d.ts",
   "files": [
     "bin",
     "README.md"
   ],
   "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,8 +30,22 @@
   "author": "JokerWon",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.26.1",
     "chalk": "^4.1.2",
     "commander": "^9.1.0",
     "figlet": "^1.5.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-node-resolve": "^13.2.1",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.70.2",
+    "shelljs": "0.8.5",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "typescript": "^4.6.3"
   }
 }

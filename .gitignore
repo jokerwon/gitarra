@@ -8,4 +8,8 @@
 # Local History for Visual Studio Code
 .history/
 
+# dependencies
 node_modules
+
+# compiled output
+/dist
