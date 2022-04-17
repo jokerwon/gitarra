@@ -23,7 +23,7 @@ npm link
 
 #### 特性
 
-- [] 支持 github
+- [ ] 支持 github
 - [] 支持 gitee
 - [] 作为 cli 直接使用
 - [] 作为 npm 包引入供 node 使用
