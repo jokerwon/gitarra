@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitee.com:jokerwon/git-helper.git"
+    "url": "https://github.com/jokerwon/gitarra"
   },
   "keywords": [
     "util",
